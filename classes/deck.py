@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import random
+from card import Card
+
 
 class Deck:
-    
-    from card import Card
 
     def __init__(self):
         suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']

@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # packages
-import random
 from classes.card import Card
 from classes.deck import Deck
 # other modules
@@ -9,12 +8,8 @@ from classes.deck import Deck
 # own packages
 
 
-
-
-
-
-
 # Example usage:
+card = Card()
 deck = Deck()
 deck.shuffle()
 
