@@ -14,6 +14,14 @@ class Deck:
     def shuffle(self):
         random.shuffle(self.cards)
 
+    def print_all_cards(self):
+        all_cards = []
+
+        for card in self.cards:
+            all_cards.append(str(card))
+
+        return all_cards
+
     def draw_card(self):
         if not self.is_empty():
             return self.cards.pop()
